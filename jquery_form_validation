@@ -11,3 +11,19 @@
 --------------------Form section--------------------
 <form id="basic-form">.
 <input type="text"  class="form-control" minlength="3"  name="subject" id="subject" required>
+
+--------------------css-----------------------------
+
+<style>
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+#subject-error {
+  font-size: 1rem;
+  color: red;
+}
+</style>
